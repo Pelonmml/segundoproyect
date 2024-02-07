@@ -1,0 +1,43 @@
+body{
+    background-color:hsl(47, 88%, 63%) ;
+    
+}
+
+.conteiner{
+    display: grid;
+    gap: 20px;
+}
+
+.card{
+    transform: scale(0.8);
+}
+
+@media(max-width:375px) {
+    #na{
+        display: none;
+    }
+    #ca2{
+        display: none;
+    }
+    
+}
+@media(max-width:425px){
+    #ca2{
+        display: none;
+    }
+}
+
+@media(min-width: 768px) {
+    #ca{
+        display: none;
+    }
+}
+
+.carrito2{
+    display: grid;
+    grid-template-columns: 50% 5%;
+    margin-right: -50px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
